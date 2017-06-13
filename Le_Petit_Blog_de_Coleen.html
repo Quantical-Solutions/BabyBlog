@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Le Petit Blog de Coleen</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/tete de mort.png" />
+</head>
+<body>
+	<header>
+		<img id="i1" src="img/header.png">
+		<img id="i2" src="img/titre-Coleen.png">
+		<img id="i3" src="img/tete de mort.png">
+	</header>
+	<main>
+		<nav>
+			<div id="row1">
+				<button style="background-image: url(img/jeux.png);" id="bt1" type="button" onclick="showDiv1();"></button>
+				<button  style="background-image: url(img/musique.png);" id="bt2" type="button" onclick="showDiv2();"></button>
+			</div>
+			<div id="row2">
+				<button style="background-image: url(img/tele.png);" id="bt3" type="button" onclick="showDiv3();"></button>
+				<button style="background-image: url(img/livre.png);" id="bt4" type="button" onclick="showDiv4();"></button>
+			</div>
+		</nav>
+		<div id="jeux">
+			<div>
+				<div id="jeutitre">
+					<img src="img/mespetitsjeux.png">
+				</div>
+				<ul>
+					<li><a href="#ancre1"> Jeu 1 </a></li>
+					<li><a href="#ancre2"> Jeu 2 </a></li>
+					<li><a href="#ancre3"> Jeu 3 </a></li>
+					
+				</ul>
+				<div id="jeu1">
+					<a href="#jeux" class="retourmenujeux"><img src="img/retourmenu.png"><span id="ancre1"></span></a>
+					<div>
+						<img class="chiffres" src="img/chiffres/1.png">
+						<img class="chiffres" src="img/chiffres/2.png">
+						<img class="chiffres" src="img/chiffres/3.png">
+						<img class="chiffres" src="img/chiffres/4.png">
+						<img class="chiffres" src="img/chiffres/5.png">	
+					</div>
+					<div>
+						<img class="chiffres" src="img/chiffres/6.png">
+						<img class="chiffres" src="img/chiffres/7.png">
+						<img class="chiffres" src="img/chiffres/8.png">
+						<img class="chiffres" src="img/chiffres/9.png">
+						<img class="chiffres" src="img/chiffres/10.png">	
+					</div>
+					<div>
+						<img class="chiffres" src="img/chiffres/11.png">
+						<img class="chiffres" src="img/chiffres/12.png">
+						<img class="chiffres" src="img/chiffres/13.png">
+						<img class="chiffres" src="img/chiffres/14.png">
+						<img class="chiffres" src="img/chiffres/15.png">	
+					</div>
+					<div>
+						<img class="chiffres" src="img/chiffres/16.png">
+						<img class="chiffres" src="img/chiffres/17.png">
+						<img class="chiffres" src="img/chiffres/18.png">
+						<img class="chiffres" src="img/chiffres/19.png">
+						<img class="chiffres" src="img/chiffres/20.png">	
+					</div>
+				</div>
+				<div id="jeu2">					
+					<a href="#jeux" class="retourmenujeux"><img src="img/retourmenu.png"><span id="ancre2"></span></a>
+					<div>
+						<img class="lettres" src="img/lettres/1.png">
+						<img class="lettres" src="img/lettres/2.png">
+						<img class="lettres" src="img/lettres/3.png">
+						<img class="lettres" src="img/lettres/4.png">
+						<img class="lettres" src="img/lettres/5.png">
+						<img class="lettres" src="img/lettres/6.png">
+					</div>
+					<div>
+						<img class="lettres" src="img/lettres/7.png">
+						<img class="lettres" src="img/lettres/8.png">
+						<img class="lettres" src="img/lettres/9.png">
+						<img class="lettres" src="img/lettres/10.png">
+						<img class="lettres" src="img/lettres/11.png">
+						<img class="lettres" src="img/lettres/12.png">
+					</div>
+					<div>
+						<img class="lettres" src="img/lettres/13.png">
+						<img class="lettres" src="img/lettres/14.png">
+						<img class="lettres" src="img/lettres/15.png">
+						<img class="lettres" src="img/lettres/16.png">
+						<img class="lettres" src="img/lettres/17.png">
+						<img class="lettres" src="img/lettres/18.png">
+					</div>
+					<div>
+						<img class="lettres" src="img/lettres/19.png">
+						<img class="lettres" src="img/lettres/20.png">
+						<img class="lettres" src="img/lettres/21.png">
+						<img class="lettres" src="img/lettres/22.png">
+						<img class="lettres" src="img/lettres/23.png">
+						<img class="lettres" src="img/lettres/24.png">
+					</div>
+					<div>
+						<img class="lettres" src="img/lettres/25.png">
+						<img class="lettres" src="img/lettres/26.png">
+					</div>
+					<a href="#jeux" id="ancrejeu3" class="retourmenujeux col-12"><img src="img/retourmenu.png"><span id="ancre3"></span></a>
+				</div>
+				<div id="jeu3">					
+					
+					<div id="cadre">
+						<div id="mainimage">
+							<img src="img/cartes/1.png">
+						</div>
+						<ul id="cadreul1">
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+						</ul>
+						<ul id="cadreul2">
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+							<li><img class="cartes" src="img/cartes/1.png" data-selected="false"></li>
+						</ul>
+					</div>
+					<img id="win" src="img/win.png" alt="">
+					<img id="loose" src="img/loose.png" alt="">
+					<audio id="jeuxSonores">
+  						<source id="trackjeu" src="">
+					</audio>
+				</div>
+			</div>			
+			<button id="closejeux" style="background-image: url(img/closecross.png);" class="close" type="button" onclick="closeDiv();"></button>
+		</div>
+		<div id="musiques">
+			<div>
+				<div id="musiquetitre">
+					<img src="img/mespetitesmusiques.png">
+				</div>
+				<div id="infoAudio">
+					<p id="infoscreen">Son 1</p>
+				</div>
+				<div>
+					<audio id="petitesmusiques">
+  						<source id="track" src="media/musique/01.mp3">
+					</audio>
+					<img id="lectAudioDeco" src="img/lecteurAudio.png">
+					<div id="listesons">
+					<button style="background-image: url(img/play.png);" class="play" type="button" onclick="playTr();">
+					</button>
+					<button style="background-image: url(img/pause.png);" class="pause" type="button" onclick="pauseTr();">
+					</button>
+					<div class="audioctrl">
+						<button style="background-image: url(img/suivant.png);" class="nextTr" type="button" onclick="nextTr();"></button>
+						<button style="background-image: url(img/precedent.png);" class="lastTr" type="button" onclick="lastTr();"></button>
+					</div>	
+					</div>
+				</div>
+			</div>
+			<div id="closemusique">			
+				<button style="background-image: url(img/closecross.png);" class="close" type="button" onclick="closeDiv();">
+				</button>
+			</div>
+		</div>
+		<div id="videos">
+			<div>
+				<div id="videotitre">
+					<img src="img/mespetitesvideos.png">
+				</div>
+				<div id="lecteurvideo">
+					<video id="petitesvideos">
+  						<source id="video" src="media/videos/01.mp4">
+					</video>
+					<div class="videoctrl">
+						<button style="background-image: url(img/suivant.png);" id="nextvid" type="button" onclick="nextVid();"></button>
+						<button style="background-image: url(img/precedent.png);" id="lastvid" type="button" onclick="lastVid();"></button>
+					</div>
+				</div>
+			</div>			
+			<button style="background-image: url(img/closecross.png);" class="close" type="button" onclick="closeDiv();"></button>
+		</div>
+		<div id="livres">
+			<div>
+				<div id="livretitre">
+					<img src="img/mespetitslivres.png">
+				</div>
+				<ul>
+					<li><a href="#livre1"> Livre 1 </a></li>
+					<li><a href="#livre2"> Livre 2 </a></li>
+					<li><a href="#livre3"> Livre 3 </a></li>
+					<li><a href="#livre4"> Livre 4 </a></li>
+				</ul>
+				<div id="livre1">
+					<a href="#livres" class="retourmenulivres"><img src="img/retourmenu.png"></a>
+					<img id="book1" src="img/livre1/page1.jpeg">
+					<div class="livrectrl">
+						<button style="background-image: url(img/suivant.png);" class="nextpage" type="button" onclick="nextPage1();"></button>
+						<button style="background-image: url(img/precedent.png);" class="lastpage" type="button" onclick="lastPage1();"></button>
+					</div>
+				</div>
+				<div id="livre2">	
+					<a href="#livres" class="retourmenulivres"><img src="img/retourmenu.png"></a>
+					<img id="book2" src="img/livre2/page1.jpeg">
+					<div class="livrectrl">
+						<button style="background-image: url(img/suivant.png);" class="nextpage" type="button" onclick="nextPage2();"></button>
+						<button style="background-image: url(img/precedent.png);" class="lastpage" type="button" onclick="lastPage2();"></button>
+					</div>
+				</div>
+				<div id="livre3">	
+					<a href="#livres" class="retourmenulivres"><img src="img/retourmenu.png"></a>
+					<img id="book3" src="img/livre3/page1.jpeg">
+					<div class="livrectrl">
+						<button style="background-image: url(img/suivant.png);" class="nextpage" type="button" onclick="nextPage3();"></button>
+						<button style="background-image: url(img/precedent.png);" class="lastpage" type="button" onclick="lastPage3();"></button>
+					</div>
+				</div>
+				<div id="livre4">			
+					<a href="#livres" class="retourmenulivres"><img src="img/retourmenu.png"></a>
+					<img id="book4" src="img/livre4/page1.jpeg">
+					<div class="livrectrl">
+						<button style="background-image: url(img/suivant.png);" class="nextpage" type="button" onclick="nextPage4();"></button>
+						<button style="background-image: url(img/precedent.png);" class="lastpage" type="button" onclick="lastPage4();"></button>
+					</div>
+				</div>
+				<button style="background-image: url(img/closecross.png);" class="close" type="button" onclick="closeDiv();"></button>
+			</div>						
+		</div>
+	</main>
+	<script type="text/javascript" src="script/coleenscript.js"></script>
+</body>
+</html>
